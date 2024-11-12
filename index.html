@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bitacora Parcial #2</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="title has-text-centered">Bitácora Parcial #2</h1>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu is-justify-content-space-between">
+            <div class="navbar-start">
+
+                <a class="navbar-item" href="#FrameW">
+                    Frameworks
+                </a>
+
+                <a class="navbar-item" href="#UnidadesR">
+                    Unidades Responsivas
+                </a>
+
+                <a class="navbar-item" href="#MB">
+                    Mobile First
+                </a>
+
+                <a class="navbar-item" href="#ModuloGrid">
+                    Modulo Grid
+                </a>
+                <a class="navbar-item" href="#@supports">
+                    @supports
+                </a>
+
+
+            </div>
+        </div>
+    </nav>
+    <section class="section ideasprincipales">
+        <h2 id="Flex" class="title is-3">Ideas Principales</h2>
+        <h3 class="subtitle is-4" id="FrameW">Frameworks</h3>
+        <div class="content">
+            <p>
+                Es un conjunto de herramientas, librerías, conveciones y buenas prácticas que pretenden
+                encapsular las tareas repetitivas en módulos genéricos facilmente reutilizable.
+                Estos se utilizan en el ambito de la progamación de aplicaciones desde hace décadas y
+                recientemente se han usado para programar y diseñar aplicaciones web, por lo que ya existen
+                decenasde frameworks para CSS. <br>
+                Algunos de estos frameworks:
+            <ul>Bootstrap</ul>
+            <ul>Foundation</ul>
+            <ul>Bulma</ul>
+            <ul>Skeleton</ul>
+            <ul>Materialize</ul>
+            </p>
+        </div>
+    </section>
+
+    <section class="columns is-desktop">
+        <!-- Sección de Notas -->
+        <div id="derecha" class="column is-half">
+            <h2 class="title is-3">Notas</h2>
+            <div class="content">
+                <p>
+                    Pretenden
+                    encapsular las tareas repetitivas en módulos genéricos facilmente reutilizable.
+                </p>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+
+        <!-- Sección de Fotos Bitácora -->
+        <div class="column is-half">
+            <h2 class="title is-3">Bitácora</h2>
+            <div class="image is-4by3">
+                <a href="img/Frameworks.svg">
+                    <img src="img/Frameworks.svg" alt="Frameworks" title="Frameworks Bootstrap">
+                </a>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="title is-4 has-text-centered">Resumen</h2>
+        <div class="content has-text-centered" class="">
+            <p has-text-white>
+                Es un conjunto de herramientas, librerías, conveciones y buenas prácticas que pretenden
+                encapsular las tareas repetitivas en módulos genéricos facilmente reutilizable.
+            </p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <header>
+        <h1 class="title has-text-centered">Bitácora Parcial #2</h1>
+    </header>
+
+
+    <section class="section ideasprincipales">
+        <h2 id="Flex" class="title is-3">Ideas Principales</h2>
+        <h3 class="subtitle is-4" id="UnidadesR">Unidades Responsivas</h3>
+        <div class="content">
+            <p> Son unidades de medida que se ajustan de forma dinámica en función del tamaño de la pantalla, la
+                ventana del navegador o el contenedor padre. <br><br>
+                <strong>Vmin y Vmax.</strong> <br>
+                Estos toman el valor mínimo y máximo entre el ancho y la altura de la ventana, respectivamente, lo
+                que permite una adaptabilidad mayor en ocasiones donde la orientación de la pantalla puede variar.
+            <p style="font-size: 1.3rem;"> Unidades Dinamicas de Vista de Ventana</p>
+            Las unidades dinámicas ofrecen mayor precisión en el diseño responsivo porque toman en cuenta las
+            variaciones de tamaño de la ventana grafica en dispositivos móviles.
+            Al ser unidades relativamente nuevas el soporte del navegador puede variar.
+            Las unidades dinámicas de vista de ventana son:
+            <ul>dvh</ul>
+            <ul>svh</ul>
+            <ul>lvh</ul>
+            <ul>dvh</ul>
+            <strong>Dynamic viewport height</strong> (altura del viewpor dinamico), representa el 1% de la altura de
+            la ventana
+            grafica dianmica, ajustándose en tiempo real a los cambios de la interfaz, como la aparición o
+            desaparición de barras de navegación. <br>
+            <strong>Small viewport heigth</strong> (altura del viewport pequeño) y corresponde al 1% de la altura de
+            ventana
+            gráfica más pequeña que el navegador a registrado.
+            <strong>Large Viewport Heigth</strong>, se refiere al 1% de la altura de la ventana gráfica registrada,
+            permitiendo
+            diseñar para el máximo espacio disponible.</p>
+        </div>
+    </section>
+
+    <section class="columns is-desktop">
+        <!-- Sección de Notas -->
+        <div id="derecha" class="column is-half">
+            <h2 class="title is-3">Notas</h2>
+            <div class="content">
+
+                <p>
+                    Las unidades dinámicas de vista de ventana son:
+                <ul>dvh</ul>
+                <ul>svh</ul>
+                <ul>lvh</ul>
+                <ul>dvh</ul>
+                </p>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+
+        <!-- Sección de Fotos para la Bitácora -->
+        <div class="column is-half">
+            <h2 class="title is-3">Bitácora</h2>
+            <div class="image is-4by3">
+                <a href="img/UnidadesResponsivas.svg">
+                    <img src="img/UnidadesResponsivas.svg" alt="Unidades Responsivas CSS" title="Unidades Responsivas">
+                </a>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="title is-4 has-text-centered">Resumen</h2>
+        <div class="content has-text-centered" class="">
+            <p>
+                Son unidades de medida que se ajustan de forma dinámica en función del tamaño de la pantalla, la
+                ventana del navegador o el contenedor padre.
+            </p>
+        </div>
+    </footer>
+
+
+    <header>
+        <h1 class="title has-text-centered">Bitácora Parcial #2</h1>
+    </header>
+
+    <section class="section ideasprincipales">
+        <h2 id="Flex" class="title is-3">Ideas Principales</h2>
+        <h3 class="subtitle is-4" id="MB">Mobile First</h3>
+        <div class="content">
+            <p>
+
+                El enfoque mobile first en diseño web adaptativo se centra en desarrollar inicialmente la interfaz
+                para dispositivos móviles pequeños, como teléfonos inteligentes, y luego ampliarla progresivamente
+                para pantallas más grandes, como tablets y escritorios. <br>Este método asegura que el contenido
+                esencial y la funcionalidad se mantengan optimizados para usuarios móviles, que suelen ser la
+                mayoría, antes de agregar elementos más complejos que requieren pantallas más amplias.
+                <strong>Ventajas del enfoque Mobile First</strong> <br>
+                <strong>Optimización de contenido y velocidad</strong>. Al centrarse en lo esencial desde el inicio,
+                se logra que la página cargue más rápido en dispositivos con menos capacidad de procesamiento y
+                conexiones de red más lentas. <br>
+                <strong>Mejora de experiencia de usario en moviles</strong>. Al priorizar lo móvil, el diseño se
+                adapta mejor a las necesidades de los usuarios que utilizan sus teléfonos.
+
+            </p>
+        </div>
+    </section>
+
+    <section class="columns is-desktop">
+        <!-- Sección de Notas -->
+        <div id="derecha" class="column is-half">
+            <h2 class="title is-3">Notas</h2>
+            <div class="content">
+                <p>
+                    Al centrarse en lo esencial desde el inicio,
+                    se logra que la página cargue más rápido en dispositivos con menos capacidad de procesamiento y
+                    conexiones de red más lentas.
+                </p>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+
+        <!-- Sección de Fotos Bitácora -->
+        <div class="column is-half">
+            <h2 class="title is-3">Bitácora</h2>
+            <div class="image is-4by3">
+                <a href="img/mobile.svg">
+                    <img src="img/mobile.svg" alt="Mobile First" title="Mobil First">
+                </a>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="title is-4 has-text-centered">Resumen</h2>
+        <div class="content has-text-centered" class="">
+            <p>
+                El enfoque mobile first en diseño web adaptativo se centra en desarrollar inicialmente la interfaz
+                para dispositivos móviles pequeños, como teléfonos inteligentes, y luego ampliarla progresivamente
+                para pantallas más grandes, como tablets y escritorios.
+            </p>
+        </div>
+    </footer>
+
+
+
+    <header>
+        <h1 class="title has-text-centered">Bitácora Parcial #2</h1>
+    </header>
+
+
+    <section class="section ideasprincipales">
+        <h2 id="Flex" class="title is-3">Ideas Principales</h2>
+        <h3 class="subtitle is-4" id="ModuloGrid">Modulo Grid</h3>
+        <div class="content">
+            <p>
+                El objetivo es conocer las configuraciones para el contenedor principal del módulo grid y también las
+                configuraciones de sus hijos.
+                En el pasado se usaban las propiedades table, luego float, position y display, sin embargo, estos
+                métodos omiten funciones importantes como el centrado vertical.
+                Grid es un sistema de diseño bidimensional basado en cuadriculas que en comparación con cualquiera de
+                los sistemas de diseño web. Fue creado para resolver problemas de diseño, a diferencia de flexbox cuyo
+                flujo unidireccional tiene diferentes casos de usos. Grid permite definir un esquema de cuadriculas.
+                <strong>Display: grid;</strong>
+                Para comenzar se debe definir un elemento con propiedad display: grid;
+                <strong>Grid</strong>
+                Este trabaja a travez de columnas de froma de vertical y renglones de manera horizontal. <br>
+                <strong>Grid Tamplate areas</strong> <br>
+                Propiedad de CSS utilizada en CSS Grid Layout para crear y organizar diseños de cuadrícula (grid)
+                de una manera visualmente intuitiva. Permite definir áreas nombradas dentro de la cuadrícula, asignando
+                a cada área un nombre único que luego puede ser referenciado para posicionar elementos.
+
+            </p>
+        </div>
+    </section>
+
+    <section class="columns is-desktop">
+        <!-- Sección de Notas -->
+        <div id="derecha" class="column is-half">
+            <h2 class="title is-3">Notas</h2>
+            <div class="content">
+
+                <p>
+                    Con la propiedad Grid-template-areas es posible crear una maqueta completa escribiendo como si fuera una matriz.
+                    Una vez declarada el acomodo de la página es necesario asignarle el nombre que corresponde.
+                </p>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+
+        <!-- Sección de Fotos para la Bitácora -->
+        <div class="column is-half">
+            <h2 class="title is-3">Bitácora</h2>
+            <div class="image is-4by3">
+                <a href="img/grid.svg">
+                    <img src="img/grid.svg" alt="Modulo Grid" title="Modulo Grid">
+                </a>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="title is-4 has-text-centered">Resumen</h2>
+        <div class="content has-text-centered" class="">
+            <p>
+                Grid es un sistema de diseño bidimensional basado en cuadriculas que en comparación con cualquiera de
+                los sistemas de diseño web. Fue creado para resolver problemas de diseño, a diferencia de flexbox cuyo
+                flujo unidireccional tiene diferentes casos de usos. Grid permite definir un esquema de cuadriculas.
+            </p>
+        </div>
+    </footer>
+
+
+    <header>
+        <h1 class="title has-text-centered">Bitácora Parcial #2</h1>
+    </header>
+
+
+    <section class="section ideasprincipales">
+        <h2 id="Flex" class="title is-3">Ideas Principales</h2>
+        <h3 class="subtitle is-4" id="@supports">@Supports</h3>
+        <div class="content">
+            <p>
+                La regla @supports en CSS permite detectar si el navegador soporta una caracteristica de CSS especifica y aplicar 
+                estilos adicionales basados en esta compatibilidad. 
+                Esto es util pra implementar funcionalidades modernas mientras se garantiza que los navegadores que no soportan estas 
+                caracteristicas aún presenten u diseño funcional.
+                <strong>La estructura basica de @supports es la siguiente:</strong>
+                @supports (propiedad: valor){ <br>
+                    elemento{ <br>
+                        propiedad: valor; <br>
+                    } <br>
+                } <br>
+                La regla @supports puede utilizar los siguientes operadores logicos:
+                <ul>and: para que la condición se cumpla ambas proposiciones deben ser verdaderas</ul>
+                <ul>or: para que la condición se cumpla al menos una de las proposiciones debe ser verdadera</ul>
+                <ul>not:: para que la condición se cumpla, la proposición debe ser falsa</ul>
+
+                <p style="font-size: 1.3rem;">Mejora progresiva y degradación elégante</p> <br>
+                <strong>Mejora Progresiva</strong> <br>
+                La mejora progresiva es una estrategia de diseño que consiste en crear una versión básica de la funcionalidad
+                para todos los navegadores, para luego agregar caracteristicas mejoradas. <br>
+                <strong>Degradación elegante</strong> <br>
+                Se refiere a la estrategia de crear la versión mas avanzada de una funcionalidad y asegurarse de que se degrade 
+                de manera aceptable.
+            </p>
+        </div>
+    </section>
+
+    <section class="columns is-desktop">
+        <!-- Sección de Notas -->
+        <div id="derecha" class="column is-half">
+            <h2 class="title is-3">Notas</h2>
+            <div class="content">
+
+                <p>
+                    No tenemos manera de saber desde que navegador se visita nuestra web, es por eso que es ideal 
+                    darle soprte en navegadores mas antiguos que no aceptan propiedades mas nuevas, la regla supports permite 
+                    darle estilos adicionales. 
+                </p>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+
+        <!-- Sección de Fotos para la Bitácora -->
+        <div class="column is-half">
+            <h2 class="title is-3">Bitácora</h2>
+            <div class="image is-4by3">
+                <a href="img/css.svg">
+                    <img src="img/css.svg" alt="Regla @supports" title="@supports">
+                </a>
+            </div>
+            <div class="box">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2 class="title is-4 has-text-centered">Resumen</h2>
+        <div class="content has-text-centered" class="">
+            <p>
+                La regla @supports en CSS permite detectar si el navegador soporta una caracteristica de CSS especifica y aplicar 
+                estilos adicionales basados en esta compatibilidad. 
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const burgerIcon = document.querySelector('.navbar-burger');
+            const navbarMenu = document.getElementById('navbarBasicExample');
+            
+            burgerIcon.addEventListener('click', () => {
+                burgerIcon.classList.toggle('is-active');
+                navbarMenu.classList.toggle('is-active');
+                navbarMenu.classList.toggle('is-flex-direction-column'); 
+            });
+        });
+    </script>
+    
+
+
+</body>
+
+</html>
